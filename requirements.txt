@@ -1,0 +1,7 @@
+streamlit
+langchain
+google-generativeai
+streamlit-chat
+openai
+langchain-google-genai
+langchain-community
