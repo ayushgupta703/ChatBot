@@ -1,0 +1,9 @@
+langchain_community
+ChatGoogleGenerativeAI
+StreamlitChatMessageHistory
+RunnableWithMessageHistory
+StrOutputParser
+streamlit
+dotenv
+os
+load_dotenv
