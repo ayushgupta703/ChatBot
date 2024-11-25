@@ -19,7 +19,6 @@ load_dotenv()
 st.set_page_config(page_title="AI Text Assistant", page_icon="")
 
 st.title('AI Chatbot')
-st.write("This chatbot is created by GLA ")
 st.markdown("Hello! I'm your AI assistant. How can I assist you today?")
 
 from google.oauth2.service_account import Credentials
