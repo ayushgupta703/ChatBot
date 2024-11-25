@@ -1,8 +1,7 @@
 langchain
 langchain_community
 langchain_google_genai
-langchain_core.runnables.history
-langchain.schema.output_parser
+langchain_core
 ChatGoogleGenerativeAI
 StreamlitChatMessageHistory
 RunnableWithMessageHistory
