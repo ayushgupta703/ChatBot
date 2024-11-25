@@ -21,7 +21,6 @@ st.set_page_config(page_title="AI Text Assistant", page_icon="")
 st.title('AI Chatbot')
 st.write("This chatbot is created by GLA ")
 st.markdown("Hello! I'm your AI assistant. How can I assist you today?")
-st.image("https://static.designboom.com/wp-content/uploads/2023/09/boss-fw23-techtopia-corpcore-sophia-robot-designboom-01.jpg", use_column_width=True)
 
 from google.oauth2.service_account import Credentials
 
@@ -88,6 +87,3 @@ else:
                 full_response += res or ""
                 message_placeholder.markdown(full_response + "|")
                 message_placeholder.markdown(full_response)
-
-    else:
-        st.warning("Please enter your question.")
