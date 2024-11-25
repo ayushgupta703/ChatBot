@@ -1,12 +1,5 @@
-langchain
-langchain_community
-langchain_google_genai
-langchain_core
-ChatGoogleGenerativeAI
-StreamlitChatMessageHistory
-RunnableWithMessageHistory
-StrOutputParser
-streamlit
-dotenv
-os
-load_dotenv
+langchain==0.0.219  # For LangChain framework components
+langchain-google-genai==0.0.4  # For Google Generative AI integration
+streamlit==1.26.0  # For creating the web-based interface
+google-auth==2.23.4  # For Google OAuth credentials handling
+python-dotenv==1.0.0  # For loading environment variables
