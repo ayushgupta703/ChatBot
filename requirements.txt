@@ -3,3 +3,4 @@ langchain-google-genai==0.0.4  # For Google Generative AI integration
 streamlit==1.26.0  # For creating the web-based interface
 google-auth==2.23.4  # For Google OAuth credentials handling
 python-dotenv==1.0.0  # For loading environment variables
+Pillow>=10.0.0
