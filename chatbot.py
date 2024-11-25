@@ -11,10 +11,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.schema.output_parser import StrOutputParser
 
 import streamlit as st
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
 
 st.set_page_config(page_title="AI Text Assistant", page_icon="")
 
@@ -29,8 +25,8 @@ def get_credentials():
     if "credentials" not in st.session_state:
         st.session_state["credentials"] = None
     
-    credentials_path = os.getenv("GOOGLE_CREDENTIALS_PATH")
-    
+    credentials_path = "ayushgupta703\\ChatBot\\resolute-bloom-428018-n4-1e39cd7c6337.json"
+
     if credentials_path:
         try:
 
