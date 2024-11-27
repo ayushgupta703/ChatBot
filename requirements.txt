@@ -1,7 +1,5 @@
-langchain>=0.0.235  # For LangChain framework components
+langchain==0.0.219  # For LangChain framework components
 langchain-google-genai==0.0.4  # For Google Generative AI integration
 google-auth==2.23.4  # For Google OAuth credentials handling
 python-dotenv==1.0.0  # For loading environment variables
 streamlit>=1.26.0
-langchain_community
-langchain.schema.output_parser
